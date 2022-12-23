@@ -28,7 +28,7 @@ proxy:
     #  R_CONFIG_ACTIVE: production
    # container-env-file: .Renviron
     container-env:
-      R_CONFIG_ACTIVE: ${R_CONFIG_ACTIVE} 
+      R_CONFIG_ACTIVE: ${R_CONFIG_ACTIVE}
 logging:
   file:
     shinyproxy.log
